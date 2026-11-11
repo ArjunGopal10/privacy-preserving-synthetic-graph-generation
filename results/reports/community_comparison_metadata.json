@@ -1,0 +1,53 @@
+{
+  "script": "experiments/run_community_comparison.py",
+  "timestamp_utc": "2026-11-11T12:10:00+00:00",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.18.44-fc-v378-x86_64-with-glibc2.39",
+  "library_versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "networkx": "3.7",
+    "matplotlib": "3.11.2",
+    "scikit-learn": "1.9.1",
+    "pymoo": "0.6.2",
+    "python-igraph": "not installed",
+    "leidenalg": "0.12.0",
+    "pytest": "9.2.0"
+  },
+  "config": {
+    "seed": 42,
+    "epsilons": [
+      0.1,
+      0.5,
+      1.0,
+      2.0,
+      3.0,
+      5.0,
+      8.0
+    ],
+    "n_releases": 20,
+    "results_dir": "<repo>/results",
+    "edge_list": null,
+    "partition_file": null,
+    "overwrite": true,
+    "algorithms": "louvain,greedy_modularity,label_propagation,girvan_newman,leiden",
+    "gn_releases": 5,
+    "algorithms_run": [
+      "louvain",
+      "greedy_modularity",
+      "label_propagation",
+      "girvan_newman",
+      "leiden"
+    ]
+  },
+  "reference_partition_source": "louvain(seed=42) on original",
+  "reference_partition_sizes": [
+    17,
+    13,
+    4
+  ],
+  "original_modularity_under_P0": 0.3853550295857988,
+  "protocol_note": "Protocol A = fixed P0 on release; Protocol B = re-detected, compared to P0.",
+  "louvain_nmi_ceiling_on_original_other_seeds": 0.770802716902379
+}

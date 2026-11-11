@@ -1,0 +1,44 @@
+[
+  {
+    "name": "fig18_pareto_front",
+    "png": "fig18_pareto_front.png",
+    "pdf": "fig18_pareto_front.pdf",
+    "data": "fig18_pareto_front.csv"
+  },
+  {
+    "name": "fig19_generation_convergence",
+    "png": "fig19_generation_convergence.png",
+    "pdf": "fig19_generation_convergence.pdf",
+    "data": "fig19_generation_convergence.csv"
+  },
+  {
+    "name": "fig20_objective_space_population_evolution",
+    "png": "fig20_objective_space_population_evolution.png",
+    "pdf": "fig20_objective_space_population_evolution.pdf",
+    "data": "fig20_objective_space_population_evolution.csv"
+  },
+  {
+    "name": "fig21_crowding_distance_and_diversity",
+    "png": "fig21_crowding_distance_and_diversity.png",
+    "pdf": "fig21_crowding_distance_and_diversity.pdf",
+    "data": "fig21_crowding_distance_and_diversity.csv"
+  },
+  {
+    "name": "fig22_nsga2_vs_grid_search",
+    "png": "fig22_nsga2_vs_grid_search.png",
+    "pdf": "fig22_nsga2_vs_grid_search.pdf",
+    "data": "fig22_nsga2_vs_grid_search.csv"
+  },
+  {
+    "name": "fig23_selected_solutions_tradeoff",
+    "png": "fig23_selected_solutions_tradeoff.png",
+    "pdf": "fig23_selected_solutions_tradeoff.pdf",
+    "data": "fig23_selected_solutions_tradeoff.csv"
+  },
+  {
+    "name": "figX2_common_vs_fresh_random_numbers",
+    "png": "figX2_common_vs_fresh_random_numbers.png",
+    "pdf": "figX2_common_vs_fresh_random_numbers.pdf",
+    "data": "figX2_common_vs_fresh_random_numbers.csv"
+  }
+]

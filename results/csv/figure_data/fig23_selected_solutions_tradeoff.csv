@@ -1,0 +1,5 @@
+label,epsilon,expected_q,utility_fraction
+smallest eps with E[Q] >= 50% of Q0,2.1906530965,0.1993064297,0.5172020978011517
+smallest eps with E[Q] >= 80% of Q0,3.4904289105,0.3104293616,0.8055671725205374
+smallest eps with E[Q] >= 90% of Q0,4.4691316165,0.3498406975,0.9078399674088292
+knee (max distance from diagonal),3.4904289105,0.3104293616,0.8055671725205374

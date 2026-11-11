@@ -1,0 +1,50 @@
+[
+  {
+    "name": "fig01_epsilon_vs_flip_probability",
+    "png": "fig01_epsilon_vs_flip_probability.png",
+    "pdf": "fig01_epsilon_vs_flip_probability.pdf",
+    "data": "fig01_epsilon_vs_flip_probability.csv"
+  },
+  {
+    "name": "fig02_epsilon_vs_edge_precision",
+    "png": "fig02_epsilon_vs_edge_precision.png",
+    "pdf": "fig02_epsilon_vs_edge_precision.pdf",
+    "data": "fig02_epsilon_vs_edge_precision.csv"
+  },
+  {
+    "name": "fig03_epsilon_vs_edge_recall",
+    "png": "fig03_epsilon_vs_edge_recall.png",
+    "pdf": "fig03_epsilon_vs_edge_recall.pdf",
+    "data": "fig03_epsilon_vs_edge_recall.csv"
+  },
+  {
+    "name": "fig04_epsilon_vs_edge_f1",
+    "png": "fig04_epsilon_vs_edge_f1.png",
+    "pdf": "fig04_epsilon_vs_edge_f1.pdf",
+    "data": "fig04_epsilon_vs_edge_f1.csv"
+  },
+  {
+    "name": "fig05_epsilon_vs_jaccard_similarity",
+    "png": "fig05_epsilon_vs_jaccard_similarity.png",
+    "pdf": "fig05_epsilon_vs_jaccard_similarity.pdf",
+    "data": "fig05_epsilon_vs_jaccard_similarity.csv"
+  },
+  {
+    "name": "fig06_epsilon_vs_edge_retention",
+    "png": "fig06_epsilon_vs_edge_retention.png",
+    "pdf": "fig06_epsilon_vs_edge_retention.pdf",
+    "data": "fig06_epsilon_vs_edge_retention.csv"
+  },
+  {
+    "name": "fig07_privacy_metric_dashboard",
+    "png": "fig07_privacy_metric_dashboard.png",
+    "pdf": "fig07_privacy_metric_dashboard.pdf",
+    "data": "fig07_privacy_metric_dashboard.csv"
+  },
+  {
+    "name": "fig08_privacy_budget_comparison",
+    "png": "fig08_privacy_budget_comparison.png",
+    "pdf": "fig08_privacy_budget_comparison.pdf",
+    "data": "fig08_privacy_budget_comparison.csv"
+  }
+]

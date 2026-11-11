@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets (never commit)
+.env
+*.key
+*.pem
+credentials*.json
+
+# Large / third-party data (download instead; see data/README.md)
+data/raw/
+data/large/
+*.zip
+*.gz
+
+# Scratch outputs (the committed results/ folder is the reference run)
+results_scratch/
+results_notebook/
+tmp/

@@ -1,0 +1,77 @@
+{
+  "script": "experiments/run_nsga2.py",
+  "timestamp_utc": "2026-11-11T12:10:06+00:00",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.18.44-fc-v378-x86_64-with-glibc2.39",
+  "library_versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "networkx": "3.7",
+    "matplotlib": "3.11.2",
+    "scikit-learn": "1.9.1",
+    "pymoo": "0.6.2",
+    "python-igraph": "not installed",
+    "leidenalg": "0.12.0",
+    "pytest": "9.2.0"
+  },
+  "config": {
+    "seed": 42,
+    "epsilons": "0.1,0.5,1.0,2.0,3.0,5.0,8.0",
+    "n_releases": 20,
+    "results_dir": "<repo>/results",
+    "edge_list": null,
+    "partition_file": null,
+    "overwrite": true,
+    "pop_size": 40,
+    "n_gen": 30,
+    "crossover_prob": 0.9,
+    "crossover_eta": 15.0,
+    "mutation_eta": 20.0,
+    "eps_min": 0.1,
+    "eps_max": 10.0,
+    "grid_points": 500,
+    "nsga2": {
+      "pop_size": 40,
+      "n_gen": 30,
+      "seed": 42,
+      "crossover_prob": 0.9,
+      "crossover_eta": 15.0,
+      "mutation_eta": 20.0,
+      "eps_min": 0.1,
+      "eps_max": 10.0,
+      "n_releases": 20,
+      "common_random_numbers": true,
+      "hv_ref_point": [
+        10.0,
+        0.1
+      ]
+    }
+  },
+  "reference_partition_source": "louvain(seed=42) on original",
+  "original_modularity_under_P0": 0.3853550295857988,
+  "comparison_with_grid": {
+    "hv_grid": 3.900886747514752,
+    "hv_nsga2": 3.8660028464760137,
+    "hv_ratio": 0.991057443269543,
+    "n_front_grid": 272,
+    "n_front_nsga2": 40,
+    "max_q_gap": 0.0005785456032099123,
+    "mean_q_gap": 3.276442652702644e-05
+  },
+  "diagnostics": {
+    "grid_points": 500.0,
+    "grid_points_on_pareto_front": 272.0,
+    "fraction_on_front": 0.544,
+    "largest_pareto_epsilon_on_grid": 8.07555110220441,
+    "non_monotone_steps_in_E[Q]_curve": 26.0,
+    "nsga2_unique_nondominated": 40.0,
+    "nsga2_final_population": 40.0,
+    "nsga2_evaluations": 1200.0,
+    "grid_evaluations": 500.0,
+    "nsga2_hypervolume": 3.8660028464760137,
+    "scratch_hypervolume": 3.85816966759151,
+    "fresh_noise_hypervolume_on_reeval": 3.8600484576120326
+  },
+  "privacy_note": "Epsilon selection uses the original graph; not end-to-end DP."
+}

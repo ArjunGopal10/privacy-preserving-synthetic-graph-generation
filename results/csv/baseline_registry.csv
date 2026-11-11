@@ -1,0 +1,7 @@
+method,uses_epsilon,formal_edge_dp,note
+original,False,False,No perturbation (reference).
+randomized_response,True,True,"Edge-DP, one release."
+laplace_topm,True,True,Edge-DP (simplified TmF-style).
+erdos_renyi_matched,False,False,Uses the true edge count; structure-free random graph.
+degree_preserving,False,False,Keeps exact degree sequence; no DP claim.
+deletion_only,True,False,Only deletes edges; not DP.

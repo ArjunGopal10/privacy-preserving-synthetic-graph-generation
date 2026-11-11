@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Privacy-Preserving Synthetic Graph Generation Using Multi-Objective Optimization"
+type: software
+authors:
+  - family-names: "Gopal"
+    given-names: "Arjun"
+repository-code: "https://github.com/ArjunGopal10/privacy-preserving-synthetic-graph-generation"
+url: "https://arjungopalevolveproject.netlify.app/"
+abstract: "M.Tech AI project studying edge-level differential privacy (randomized response), community-structure preservation and NSGA-II multi-objective optimisation of the privacy budget on Zachary's Karate Club graph. Not peer reviewed."
+keywords:
+  - differential privacy
+  - randomized response
+  - graph anonymization
+  - community detection
+  - NSGA-II
+license: MIT

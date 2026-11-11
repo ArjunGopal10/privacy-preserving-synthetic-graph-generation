@@ -1,0 +1,62 @@
+[
+  {
+    "name": "fig09_original_vs_synthetic_graph",
+    "png": "fig09_original_vs_synthetic_graph.png",
+    "pdf": "fig09_original_vs_synthetic_graph.pdf",
+    "data": "fig09_original_vs_synthetic_graph.csv"
+  },
+  {
+    "name": "fig10_epsilon_vs_modularity",
+    "png": "fig10_epsilon_vs_modularity.png",
+    "pdf": "fig10_epsilon_vs_modularity.pdf",
+    "data": "fig10_epsilon_vs_modularity.csv"
+  },
+  {
+    "name": "fig11_epsilon_vs_nmi",
+    "png": "fig11_epsilon_vs_nmi.png",
+    "pdf": "fig11_epsilon_vs_nmi.pdf",
+    "data": "fig11_epsilon_vs_nmi.csv"
+  },
+  {
+    "name": "fig12_epsilon_vs_ari",
+    "png": "fig12_epsilon_vs_ari.png",
+    "pdf": "fig12_epsilon_vs_ari.pdf",
+    "data": "fig12_epsilon_vs_ari.csv"
+  },
+  {
+    "name": "fig13_epsilon_vs_number_of_communities",
+    "png": "fig13_epsilon_vs_number_of_communities.png",
+    "pdf": "fig13_epsilon_vs_number_of_communities.pdf",
+    "data": "fig13_epsilon_vs_number_of_communities.csv"
+  },
+  {
+    "name": "fig14_community_size_distribution",
+    "png": "fig14_community_size_distribution.png",
+    "pdf": "fig14_community_size_distribution.pdf",
+    "data": "fig14_community_size_distribution.csv"
+  },
+  {
+    "name": "fig15_conductance_comparison",
+    "png": "fig15_conductance_comparison.png",
+    "pdf": "fig15_conductance_comparison.pdf",
+    "data": "fig15_conductance_comparison.csv"
+  },
+  {
+    "name": "fig16_intra_vs_inter_community_edges",
+    "png": "fig16_intra_vs_inter_community_edges.png",
+    "pdf": "fig16_intra_vs_inter_community_edges.pdf",
+    "data": "fig16_intra_vs_inter_community_edges.csv"
+  },
+  {
+    "name": "fig17_community_detection_algorithm_comparison",
+    "png": "fig17_community_detection_algorithm_comparison.png",
+    "pdf": "fig17_community_detection_algorithm_comparison.pdf",
+    "data": "fig17_community_detection_algorithm_comparison.csv"
+  },
+  {
+    "name": "figX1_coverage_performance_consistency",
+    "png": "figX1_coverage_performance_consistency.png",
+    "pdf": "figX1_coverage_performance_consistency.pdf",
+    "data": "figX1_coverage_performance_consistency.csv"
+  }
+]

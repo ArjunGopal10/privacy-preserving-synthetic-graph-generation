@@ -1,0 +1,5 @@
+graph,edges,kept,added,deleted
+original,78,78,0,0
+eps=0.5,235,49,186,29
+eps=2,129,70,59,8
+eps=5,79,78,1,0

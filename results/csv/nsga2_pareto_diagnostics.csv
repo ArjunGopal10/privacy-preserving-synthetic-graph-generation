@@ -1,0 +1,2 @@
+grid_points,grid_points_on_pareto_front,fraction_on_front,largest_pareto_epsilon_on_grid,non_monotone_steps_in_E[Q]_curve,nsga2_unique_nondominated,nsga2_final_population,nsga2_evaluations,grid_evaluations,nsga2_hypervolume,scratch_hypervolume,fresh_noise_hypervolume_on_reeval
+500,272,0.544,8.07555110220441,26,40,40,1200,500,3.8660028464760137,3.85816966759151,3.8600484576120326

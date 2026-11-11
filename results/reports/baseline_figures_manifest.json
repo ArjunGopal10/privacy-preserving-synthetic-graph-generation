@@ -1,0 +1,62 @@
+[
+  {
+    "name": "fig24_original_karate_club_graph",
+    "png": "fig24_original_karate_club_graph.png",
+    "pdf": "fig24_original_karate_club_graph.pdf",
+    "data": "fig24_original_karate_club_graph.csv"
+  },
+  {
+    "name": "fig25_randomized_graphs_low_medium_high_epsilon",
+    "png": "fig25_randomized_graphs_low_medium_high_epsilon.png",
+    "pdf": "fig25_randomized_graphs_low_medium_high_epsilon.pdf",
+    "data": "fig25_randomized_graphs_low_medium_high_epsilon.csv"
+  },
+  {
+    "name": "fig26_degree_distribution_comparison",
+    "png": "fig26_degree_distribution_comparison.png",
+    "pdf": "fig26_degree_distribution_comparison.pdf",
+    "data": "fig26_degree_distribution_comparison.csv"
+  },
+  {
+    "name": "fig27_clustering_coefficient_comparison",
+    "png": "fig27_clustering_coefficient_comparison.png",
+    "pdf": "fig27_clustering_coefficient_comparison.pdf",
+    "data": "fig27_clustering_coefficient_comparison.csv"
+  },
+  {
+    "name": "fig28_shortest_path_length_comparison",
+    "png": "fig28_shortest_path_length_comparison.png",
+    "pdf": "fig28_shortest_path_length_comparison.pdf",
+    "data": "fig28_shortest_path_length_comparison.csv"
+  },
+  {
+    "name": "fig29_graph_density_comparison",
+    "png": "fig29_graph_density_comparison.png",
+    "pdf": "fig29_graph_density_comparison.pdf",
+    "data": "fig29_graph_density_comparison.csv"
+  },
+  {
+    "name": "fig30_connected_components_comparison",
+    "png": "fig30_connected_components_comparison.png",
+    "pdf": "fig30_connected_components_comparison.pdf",
+    "data": "fig30_connected_components_comparison.csv"
+  },
+  {
+    "name": "figX3_baseline_privacy_indicators",
+    "png": "figX3_baseline_privacy_indicators.png",
+    "pdf": "figX3_baseline_privacy_indicators.pdf",
+    "data": "figX3_baseline_privacy_indicators.csv"
+  },
+  {
+    "name": "figX4_baseline_community_utility",
+    "png": "figX4_baseline_community_utility.png",
+    "pdf": "figX4_baseline_community_utility.pdf",
+    "data": "figX4_baseline_community_utility.csv"
+  },
+  {
+    "name": "figX5_baseline_structural_distance",
+    "png": "figX5_baseline_structural_distance.png",
+    "pdf": "figX5_baseline_structural_distance.pdf",
+    "data": "figX5_baseline_structural_distance.csv"
+  }
+]
