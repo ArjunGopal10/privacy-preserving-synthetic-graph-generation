@@ -43,18 +43,18 @@ An M.Tech AI research project exploring edge-level differential privacy, randomi
 ## System architecture
 ```mermaid
 flowchart LR
-  G[Original graph G<br/>Karate Club] --> P0[Fixed partition P0<br/>Louvain, computed once]
-  G --> RR[Randomized response<br/>p = 1/(1+e^ε)]
-  RR --> H[Released graph H]
-  H --> PI[Privacy indicators<br/>empirical]
-  H --> CM[Community metrics<br/>A: fixed P0 · B: re-detected]
+  G["Original graph G (Karate Club)"] --> P0["Fixed partition P0 (Louvain, computed once)"]
+  G --> RR["Randomized response, flip probability p = 1/(1+e^ε)"]
+  RR --> H["Released graph H"]
+  H --> PI["Privacy indicators (empirical)"]
+  H --> CM["Community metrics: A fixed P0, B re-detected"]
   P0 --> CM
-  CM --> EQ[E Q H; P0 over K releases]
-  EQ --> NS[NSGA-II over ε<br/>min ε, −E Q]
-  EQ --> GS[Dense grid baseline]
-  NS --> PF[Pareto front]
+  CM --> EQ["Expected modularity E[Q] over K releases"]
+  EQ --> NS["NSGA-II over ε: minimise ε and -E[Q]"]
+  EQ --> GS["Dense grid baseline"]
+  NS --> PF["Pareto front"]
   GS --> PF
-  PF --> SEL[Operating points<br/>data-dependent selection]
+  PF --> SEL["Operating points (data-dependent selection)"]
 ```
 
 ## Methodology
